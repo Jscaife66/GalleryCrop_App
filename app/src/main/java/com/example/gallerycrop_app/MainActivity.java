@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView Image_name = dialog.findViewById(R.id.txt_Image_name);
         ImageView Image = dialog.findViewById(R.id.img);
-        Button btn_Full = dialog.findViewById(R.id.btn_full);
+        Button btn_Crop = dialog.findViewById(R.id.btn_crop);
         Button btn_Close = dialog.findViewById(R.id.btn_close);
 
         String title = getResources().getResourceName(item_pos);
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn_Full.setOnClickListener(new View.OnClickListener() {
+        btn_Crop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                     Intent i = new Intent(MainActivity.this, FullView.class);

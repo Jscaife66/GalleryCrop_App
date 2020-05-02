@@ -34,11 +34,11 @@
         android:layout_below="@+id/img"
         >
         <Button
-            android:id="@+id/btn_full"
+            android:id="@+id/btn_crop"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Full View"
+            android:text="Crop"
             android:textColor="#ffffff"
             android:background="#7e1e1e"
             tools:ignore="ButtonStyle,HardcodedText" />
